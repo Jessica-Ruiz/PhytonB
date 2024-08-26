@@ -1,0 +1,5 @@
+nombre=print("Digite su nombre: ")
+cedula=int("Digite su numero de cedula: ")
+estatura=float("Dif¿gite su estatura: ")
+estado=bool("Digite su estado")
+print(f"Su nombre es {nombre}, su cedula es {cedula}, su estatura es {estatura},su estado es {bool}")
