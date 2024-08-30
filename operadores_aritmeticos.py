@@ -17,7 +17,7 @@ print(f"El resultado de la operacion es: {ejemplo3}")
 
 
 #Ejemplo 5
-ejemplo5=15/3*(7+(68-15*33+(math.pow(45,2)/5)/3))+19
+ejemplo5=15/3*(7+(68-15*33+(math.pow(45,2)/5)/3)/2)+19
 #Imprimir variable
 print(f"El resultado de la operacion es: {ejemplo5}")
 
