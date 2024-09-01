@@ -15,11 +15,22 @@ ejemplo3=2*(3+(5*(9/3)))
 #Imprimir variable
 print(f"El resultado de la operacion es: {ejemplo3}")
 
+#Ejemplo 4
+ejemplo4=7+3*(1+5*(2*(9-7)+4)+2)
+#Imprimir variable
+print(f"El resultado de la operacion es: {ejemplo4}")
 
 #Ejemplo 5
-ejemplo5=15/3*(7+(68-15*33+(math.pow(45,2)/5)/3)/2)+19
+ejemplo5=15/3*(7+(68-15*33+((math.pow(45,2)/5))/3)/2)+19
 #Imprimir variable
 print(f"El resultado de la operacion es: {ejemplo5}")
+
+
+
+#Ejemplo 6
+ejemplo6=(16/4*((((4+8*2)/4-(3**2)+math.srqt(4))/2)*math.srqt(25))-3)-16
+#Imprimir variable
+print(f"El resultado de la operacion es: {ejemplo6}")
 
 
 
