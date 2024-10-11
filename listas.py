@@ -44,6 +44,8 @@ numeros.insert(0,"Programacion")
 print(numeros)
 
 #falta poner la extencion de la lista
+val = lista.__len__()
+print(f"La cantidad de elementos de la lista es de: {val}")
 #Reemplazar datos de una lista
 numeros[-1]="ruizrinconjessicajineth@gmail.com"
 print(numeros)
@@ -84,3 +86,7 @@ lista_2.sort(reverse=True)
 print(lista_2)
 
 #Sumar datos de la lista y dar pormedio
+sumar=sum(lista_2)
+prpmedio=sumar/len(lista_2)
+print(f"La suma de los valores de la lista es de {sumar}")
+print(f"El promedio al sumar los valores de la lista es de {prpmedio}")
