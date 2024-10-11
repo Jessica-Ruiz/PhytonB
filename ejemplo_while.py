@@ -35,7 +35,10 @@ while opcion != 7:
         elif opcion == 4:
             num1 = int(input("Digite el primer número: "))
             num2 = int(input("Digite el segundo número: "))
-            resultado = num1 / num2
+            if num2 ==0:
+                resultado=print("No se puede realizar la operacion intente nuevamente")
+            else:
+                resultado = num1 / num2
             print(f"División = {resultado}")
         elif opcion == 5:
             base = int(input("Digite el primer número: "))
