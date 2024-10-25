@@ -21,4 +21,49 @@ def opcion_seleccionada(op):
     Triangulo = 2
     Circulo = 3
     Salir = 4
-    print(f"Usted selecciono la opcion {op}")
+    #Condicianales
+    if op== 1:
+        print(f"Usted selecciono la opcion Cuadrado")
+        return
+    elif op== 2:
+        print(f"Usted selecciono la opcion Triangulo")
+        return
+    elif op== 3:
+        print(f"Usted selecciono la opcion Circulo")
+        return
+    elif op== 4:
+        print(f"Usted selecciono la opcion Salir")
+        return
+    else:
+        print(f"Opcion no valida!!!")
+        return
+    
+#Solicitud de informacion
+#Cuadrado
+def solicitud_cuadrado () :
+    """
+    Solicita la medida del lado para calculo de area lado
+    tipo de dato float
+    """
+    lado=float(input("Digite el lado: "))
+    return lado
+#Triangulo
+def solicitud_triangulo () :
+    """
+    Solicita base y altura para calculo de area 
+    tipo de dato float, retorna primero la base 
+    y despues la altura
+    """
+    base=float(input("Digite el base: "))
+    Altura=float(input("Digite el altura: "))
+    return base,Altura
+#Circulo
+def solicitud_circulo () :
+    """
+    Solicita la medida del radio para calculo de area lado,
+    tipo de dato float
+    """
+    radio=float(input("Digite el radio: "))
+    return radio
+
+
