@@ -22,16 +22,16 @@ def opcion_seleccionada(op):
     Circulo = 3
     Salir = 4
     #Condicianales
-    if op== 1:
+    if op == 1:
         print(f"Usted selecciono la opcion Cuadrado")
         return
-    elif op== 2:
+    elif op == 2:
         print(f"Usted selecciono la opcion Triangulo")
         return
-    elif op== 3:
+    elif op == 3:
         print(f"Usted selecciono la opcion Circulo")
         return
-    elif op== 4:
+    elif op == 4:
         print(f"Usted selecciono la opcion Salir")
         return
     else:
@@ -54,8 +54,8 @@ def solicitud_triangulo () :
     tipo de dato float, retorna primero la base 
     y despues la altura
     """
-    base=float(input("Digite el base: "))
-    Altura=float(input("Digite el altura: "))
+    base = float(input("Digite el base: "))
+    Altura = float(input("Digite el altura: "))
     return base,Altura
 #Circulo
 def solicitud_circulo () :
@@ -63,7 +63,32 @@ def solicitud_circulo () :
     Solicita la medida del radio para calculo de area lado,
     tipo de dato float
     """
-    radio=float(input("Digite el radio: "))
+    radio = float(input("Digite el radio: "))
     return radio
+
+#Mostar informacion areas
+#Mostrar area de un cuadrado
+def mostrar_cuadrado(area):
+    """
+    Muestra el area del cuadrado
+    tipo float
+    """
+    print(f"El area del cuadrado es: {area}")
+
+#Mostrar area de un triangulo
+def mostrar_triangulo(area):
+    """
+    Muestra el area del triangulo
+    tipo float
+    """
+    print(f"El area del triangulo es: {area}")
+#Mostrar area de un circulo
+def mostrar_circulo(area):
+    """
+    Muestra el area del circulo
+    tipo float
+    """
+    print(f"El area del circulo es: {area}")
+
 
 
