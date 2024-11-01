@@ -13,9 +13,7 @@ def obtener_jugada_computadora():
 def determinar_ganador(jugada_usuario, jugada_computadora):
     if jugada_usuario == jugada_computadora:
         return "empate"
-    elif (jugada_usuario == 'piedra' and jugada_computadora == 'tijera') or \
-         (jugada_usuario == 'papel' and jugada_computadora == 'piedra') or \
-         (jugada_usuario == 'tijera' and jugada_computadora == 'papel'):
+    elif (jugada_usuario == 'piedra' and jugada_computadora == 'tijera') or (jugada_usuario == 'papel' and jugada_computadora == 'piedra') or (jugada_usuario == 'tijera' and jugada_computadora == 'papel'):
         return "usuario"
     else:
         return "computadora"
