@@ -24,19 +24,19 @@ def opcion_seleccionada(op):
     #Condicianales
     if op == 1:
         print(f"Usted selecciono la opcion Cuadrado")
-        return
+        return Cuadrado
     elif op == 2:
         print(f"Usted selecciono la opcion Triangulo")
-        return
+        return Triangulo
     elif op == 3:
         print(f"Usted selecciono la opcion Circulo")
-        return
+        return Circulo
     elif op == 4:
         print(f"Usted selecciono la opcion Salir")
-        return
+        return Salir
     else:
         print(f"Opcion no valida!!!")
-        return
+        return "Opcion no valida!!!"
     
 #Solicitud de informacion
 #Cuadrado

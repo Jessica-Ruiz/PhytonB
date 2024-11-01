@@ -8,6 +8,7 @@ opcion=  0
 while opcion != 4:
     op = menu()
     formas_geometricas= opcion_seleccionada(op)
+    #Condicionales
     if formas_geometricas == 1:
         lado = solicitud_cuadrado()
         area = area_cuadrado(lado)
@@ -26,17 +27,4 @@ while opcion != 4:
     else:
         print("Opcion no valida")
 
-print("Gracias por utilizar la calculado de figuras geometricas")
-
-#Llamar menu
-#opcion=menu()
-#Llamar funcion op
-#opcion_seleccionada(opcion)
-
-#lado = solicitud_cuadrado()
-#area =area_cuadrado(lado)
-#mostrar_cuadrado(area)
-
-#base,Altura=solicitud_triangulo()
-#area = area_tiangulo(base,Altura)
-#mostrar_triangulo(area)
+print("Gracias por utilizar la calculadora de figuras geometricas")
